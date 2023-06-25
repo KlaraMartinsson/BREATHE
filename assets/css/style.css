@@ -91,10 +91,10 @@ body {
 }
 
 #hero-text h3 {
-    font-size: 30px;
-    font-family: 'Libre Baskerville',
-        serif;
-    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: Arial;
+    font-style: italic;
+    letter-spacing: 1px;
     color: white;
     text-align: center;
     padding-top: 0px;

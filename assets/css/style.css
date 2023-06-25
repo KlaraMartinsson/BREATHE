@@ -48,3 +48,7 @@ body {
     color: orange;
     border-bottom: 1px solid;
 }
+
+#start-now {
+    font-weight: bold;
+}

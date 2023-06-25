@@ -24,13 +24,12 @@ body {
 #menu {
     font-size: 90%;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     float: right;
-    position: sticky
+    position: sticky;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -46,13 +45,23 @@ body {
 }
 
 #menu a:hover {
-    color: orange;
     border-bottom: 1px solid;
 }
 
 #start-now {
-    font-weight: bold;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 10px;
+    padding: 8px;
 }
+
+#start-now:hover {
+    background-color: orange;
+    color: white;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
 
 /* hero image and hero text*/
 

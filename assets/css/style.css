@@ -53,7 +53,7 @@ body {
     font-weight: bold;
 }
 
-/* hero image */
+/* hero image and hero text*/
 
 #hero-image {
     margin: 0px auto;
@@ -67,5 +67,17 @@ body {
     background: url('../images/hero-image.jpg') no-repeat center center;
     clear: both;
     background-size: cover;   
+    display: flex;
 }
+
+#hero-text {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    display: block
+    text-align: center;
+    margin-top: 
+}
+
 

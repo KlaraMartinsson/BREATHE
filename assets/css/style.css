@@ -19,3 +19,32 @@ body {
     color: orange;
     margin-left: 10px;
 }
+
+/* navigation links */
+#menu {
+    font-size: 90%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    float: right;
+    position: sticky
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: orange;
+    border-bottom: 1px solid;
+}

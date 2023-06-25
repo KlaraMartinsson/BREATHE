@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
 #logo {
     font-family: 'Libre Baskerville', serif;
-    float:left;
+    float: left;
     letter-spacing: 2px;
     color: orange;
-    margin: 0;
+    margin-left: 20px;
 }

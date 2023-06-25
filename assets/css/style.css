@@ -29,7 +29,8 @@ body {
     position: sticky
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -66,16 +67,26 @@ body {
     border-color: lightcoral;
     background: url('../images/hero-image.jpg') no-repeat center center;
     clear: both;
-    background-size: cover;    
+    background-size: cover;
 }
 
-#hero-text {
+#hero-text h2 {
     font-size: 50px;
-    font-family: Arial;
+    font-family: 'Libre Baskerville',
+        serif;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+#hero-text h3 {
+    font-size: 30px;
+    font-family: 'Libre Baskerville',
+        serif;
     letter-spacing: 2px;
     color: white;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 0px;
 }
-
-

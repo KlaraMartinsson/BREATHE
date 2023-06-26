@@ -151,5 +151,22 @@ animation-fill-mode: forwards;
 }
 
 #circle-bg-why{
-    
+    background: url('../images/why.meditate.png') no-repeat;
+        height: 100%;
+        border-radius: 50%;
+        background-size: contain;
+    }
+
+#circle-bg-how {
+    background: url('../images/how.to.meditate.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#circle-bg-questions {
+    background: url('../images/more.questions.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
 }

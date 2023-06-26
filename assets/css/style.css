@@ -123,9 +123,14 @@ animation-fill-mode: forwards;
     padding-top: 0px;
 }
 
-.about-meditation{
-width: 33%;
+/* Making space from the meditation nav bar to the hero image. Also making the elements inline.*/
+.about-meditation {
+    width: 24%;
+    display: inline-block;
+    margin: 125px 0;
 }
+
+/* navigation bar about meditation */
 
 .circle-container{
     width: 180px;
@@ -138,9 +143,13 @@ width: 33%;
     border-color: lightcoral;
 }
 
-#circle-bg{
+#circle-bg-what{
     background: url('../images/what.is.meditation.png') no-repeat;
     height: 100%;
     border-radius: 50%;
     background-size: contain;
+}
+
+#circle-bg-why{
+    
 }

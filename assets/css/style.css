@@ -17,8 +17,6 @@ h4 {
     text-align: center;
 }
 
-
-
 /* Logo in the right top corner */
 
 #logo {
@@ -36,10 +34,11 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     float: right;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -89,19 +88,20 @@ h4 {
     clear: both;
     background-size: cover;
 
-/* hero image zoom animation */
-animation-name: hero-animation;
-animation-duration: 4s;
-animation-fill-mode: forwards;
+    /* hero image zoom animation */
+    animation-name: hero-animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-animation {
-    from{
+    from {
         transform: scale(0.8);
-     }
-    to{
+    }
+
+    to {
         transform: scale(1.1);
-     }
+    }
 }
 
 /* text inside the hero image */
@@ -126,11 +126,12 @@ animation-fill-mode: forwards;
     padding-top: 0px;
 }
 
-/* Making space from the meditation nav bar to the hero image. Also making the elements inline.*/
+/* making the meditation nav bar centered */
 .about-meditation {
-    width: 24%;
-    display: inline-block;
-    margin: 125px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 125px;
 }
 
 /* navigation bar about meditation */
@@ -139,37 +140,8 @@ animation-fill-mode: forwards;
     width: 180px;
     height: 180px;
     padding: 1px;
-    border-style: solid;
-    border-width: 1px;
+    margin: 5px;
+    border: 1px solid lightcoral;
     border-radius: 50%;
     background-color: rgb(255, 210, 125);
-    border-color: lightcoral;
-}
-
-#circle-bg-what{
-    background: url('../images/what.is.meditation.png') no-repeat;
-    height: 100%;
-    border-radius: 50%;
-    background-size: contain;
-}
-
-#circle-bg-why{
-    background: url('../images/why.meditate.png') no-repeat;
-        height: 100%;
-        border-radius: 50%;
-        background-size: contain;
-    }
-
-#circle-bg-how {
-    background: url('../images/how.to.meditate.png') no-repeat;
-    height: 100%;
-    border-radius: 50%;
-    background-size: contain;
-}
-
-#circle-bg-questions {
-    background: url('../images/more.questions.png') no-repeat;
-    height: 100%;
-    border-radius: 50%;
-    background-size: contain;
 }

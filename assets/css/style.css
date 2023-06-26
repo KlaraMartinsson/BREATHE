@@ -13,8 +13,11 @@ body {
 
 h4 {
     font-family: Arial;
-
+    color: black;
+    text-align: center;
 }
+
+
 
 /* Logo in the right top corner */
 
@@ -132,7 +135,7 @@ animation-fill-mode: forwards;
 
 /* navigation bar about meditation */
 
-.circle-container{
+.circle-container {
     width: 180px;
     height: 180px;
     padding: 1px;

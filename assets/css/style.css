@@ -11,7 +11,12 @@ body {
     font-family: Arial;
 }
 
+h4 {
+    font-family: Arial;
+}
+
 /* Logo in the right top corner */
+
 #logo {
     font-family: 'Libre Baskerville', serif;
     float: left;
@@ -21,6 +26,7 @@ body {
 }
 
 /* navigation links */
+
 #menu {
     font-size: 90%;
     text-transform: uppercase;
@@ -43,6 +49,8 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+/* navigation link start now hover*/
 
 #menu a:hover {
     border-bottom: 1px solid;

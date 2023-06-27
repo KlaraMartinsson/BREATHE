@@ -127,20 +127,41 @@ h4 {
 }
 
 /* hero image for the meditation pages */
-#hero-image-meditation-pages{
-margin: 0px auto;
-width: 80%;
-height: 500px;
-padding: 30px;
-border-color: lightcoral;
-background: url('../images/hero-image.jpg') no-repeat center center;
-clear: both;
-background-size: cover;
+#hero-image-meditation-pages {
+    margin: 0px auto;
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    border-color: lightcoral;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    clear: both;
+    background-size: cover;
 }
 
 /* Form */
 
+form{
+    display: block;
+}
 
+#div-form {
+    background-color: red;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+#div-form label{
+   
+}
+
+#div-form label {
+
+}
+
+#form-heading {
+    font-size: 150%;
+}
 
 /* making the meditation nav bar centered */
 .about-meditation {

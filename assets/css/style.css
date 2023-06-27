@@ -191,11 +191,21 @@ form {
     background-size: contain;
 }
 
+#circle-bg-what:hover {
+    border: 2px solid;
+    border-color: orange;
+}
+
 #circle-bg-why {
     background: url('../images/why.meditate.png') no-repeat;
     height: 100%;
     border-radius: 50%;
     background-size: contain;
+}
+
+#circle-bg-why:hover {
+    border: 2px solid;
+    border-color: orange;
 }
 
 #circle-bg-how {
@@ -205,11 +215,21 @@ form {
     background-size: contain;
 }
 
+#circle-bg-how:hover {
+    border: 2px solid;
+    border-color: orange;
+}
+
 #circle-bg-questions {
     background: url('../images/more.questions.png') no-repeat;
     height: 100%;
     border-radius: 50%;
     background-size: contain;
+}
+
+#circle-bg-questions:hover {
+    border: 2px solid;
+    border-color: orange;
 }
 
 /* footer */

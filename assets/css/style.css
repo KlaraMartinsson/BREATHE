@@ -37,8 +37,7 @@ h4 {
 
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -140,8 +139,36 @@ h4 {
     width: 180px;
     height: 180px;
     padding: 1px;
-    margin: 5px;
+    margin: 40px;
     border: 1px solid lightcoral;
     border-radius: 50%;
     background-color: rgb(255, 210, 125);
+}
+
+#circle-bg-what {
+    background: url('../images/what.is.meditation.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#circle-bg-why {
+    background: url('../images/why.meditate.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#circle-bg-how {
+    background: url('../images/how.to.meditate.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#circle-bg-questions {
+    background: url('../images/more.questions.png') no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    background-size: contain;
 }

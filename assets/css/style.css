@@ -139,30 +139,29 @@ h4 {
 }
 
 /* Form */
-
-form {
-    display: block;
-}
-
-#div-form {
-    background-color: red;
+#section-form {
+    background-color: rgb(255, 196, 86);
     width: 70%;
     height: 400px;
     margin-top: 20px;
     margin-left: 15%;
+    padding: 30px;
 }
 
-#div-form label {
-    float: left;
-}
-
-#div-form input {
-    float: left;
+#section-form input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
 }
 
 #form-heading {
     font-size: 150%;
 }
+
+#submit-button{
+    gi
+}
+
 
 /* making the meditation nav bar centered */
 .about-meditation {

@@ -140,23 +140,24 @@ h4 {
 
 /* Form */
 
-form{
+form {
     display: block;
 }
 
 #div-form {
     background-color: red;
     width: 70%;
+    height: 400px;
     margin-top: 20px;
     margin-left: 15%;
 }
 
-#div-form label{
-   
+#div-form label {
+    float: left;
 }
 
-#div-form label {
-
+#div-form input {
+    float: left;
 }
 
 #form-heading {

@@ -21,6 +21,7 @@ p {
 }
 
 
+
 #p-home {
     font-size: 26px;
     font-family: Arial;
@@ -31,15 +32,11 @@ p {
     padding-top: 10px;
 }
 
-h4 {
-    font-family: Arial;
-    color: black;
-    text-align: center;
-}
 
 #questions-list {
     font-size: 18px;
     letter-spacing: 1px;
+    color: white;
 }
 
 /* Logo in the right top corner */
@@ -101,7 +98,7 @@ h4 {
 /* hero image */
 
 #hero-image {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 80%;
     height: 500px;
     padding: 30px;
@@ -144,16 +141,6 @@ h4 {
     clear: both;
 }
 
-#hero-text h3 {
-    font-size: 170%;
-    font-family: Arial;
-    font-style: italic;
-    letter-spacing: 1px;
-    color: white;
-    text-align: center;
-    padding-top: 2px;
-}
-
 /* hero image for the meditation pages */
 
 #hero-image-rectangle {
@@ -188,6 +175,8 @@ h4 {
     font-size: 150%;
     font-family: 'Libre Baskerville',
         serif;
+    text-align: center;
+    color: white;
 }
 
 #submit-button input {
@@ -264,6 +253,8 @@ h4 {
     border-color: orange;
 }
 
+/* guided meditation video in start now page */
+
 #video-meditation {
     display: flex;
     justify-content: center;
@@ -292,12 +283,20 @@ footer {
 
 /* media queires */
 
-@media screen and (max-width:1200px) {
-    #footer > ul{
-        width: 100%;
-       clear: both;
-       height: 150px;
-       padding: 0;
+@media screen and (max-width:794px) {
+    #hero-image {
+        margin: 0px auto;
+        width: 60%;
+        height: 300px;
     }
-    
+
+    #hero-text h2 {
+        font-size: 160%;
+        padding-top: 96px;
+    }
+
+    #p-home {
+        font-size: 110%;
+    }
+
 }

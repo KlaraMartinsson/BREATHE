@@ -186,7 +186,7 @@ p {
 
 /* making the meditation nav bar centered */
 
-.about-meditation {
+#about-meditation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,5 +298,7 @@ footer {
     #p-home {
         font-size: 110%;
     }
+
+    #
 
 }

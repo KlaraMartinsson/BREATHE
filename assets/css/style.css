@@ -7,6 +7,10 @@
     border: none
 }
 
+body{
+    font-family: arial;
+}
+
 p {
     font-size: 20px;
     font-family: Arial;
@@ -292,26 +296,28 @@ footer {
 
     h2 {
         font-size: 30px;
-        padding-top: 96px;
+        padding-top: 150px;
+        letter-spacing: 1px;
+    }
+
+    #h2-home {
+        font-size: 30px;
+        padding-top: 100px;
         letter-spacing: 1px;
     }
 
     #p {
-        font-size: 500px;
+        font-size: 300px;
     }
 
     #p-home {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     #about-meditation {
         width: 10;
         display: inline-block;
         margin-top: 3px;
-    }
-
-    #circle-container {
-        column-count: 2;
     }
 
 }
@@ -323,5 +329,19 @@ footer {
         margin-left: 12px;
         line-height: 20px;
         margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 22px;
+        padding-top: 96px;
+        letter-spacing: 1px;
+    }
+
+    #p {
+        font-size: 20px;
+    }
+
+    #p-home {
+        font-size: 16px;
     }
 }

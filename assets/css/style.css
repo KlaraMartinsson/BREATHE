@@ -7,7 +7,7 @@
     border: none
 }
 
-body{
+body {
     font-family: arial;
 }
 
@@ -193,6 +193,13 @@ h2 {
     margin-top: 20px;
 }
 
+/* making the about-meditation section titles centered */
+
+#about-meditation a {
+    text-decoration: none;
+    text-align: center;
+}
+
 /* navigation bar about meditation */
 
 .circle-container {
@@ -288,8 +295,8 @@ footer {
 @media screen and (max-width:794px) {
     #hero-image {
         margin: 0px auto;
-        width: 60%;
-        height: 300px;
+        width: 65%;
+        height: 250px;
     }
 
     h2 {
@@ -316,6 +323,8 @@ footer {
         width: 10;
         display: inline-block;
         margin-top: 3px;
+        box-sizing: border-box;
+        column-count: 2;
     }
 
 }
@@ -342,5 +351,28 @@ footer {
 
     #p-home {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    #hero-image {
+        margin: 0px auto;
+        width: 80%;
+        height: 230px;
+    }
+
+    #h2-home {
+        font-size: 18px;
+        padding-top: 96px;
+        letter-spacing: 1px;
+    }
+
+    #p {
+        font-size: 20px;
+    }
+
+    #p-home {
+        font-size: 13px;
     }
 }

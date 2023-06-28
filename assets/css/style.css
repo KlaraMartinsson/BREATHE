@@ -20,6 +20,7 @@ p {
     padding-top: 10px;
 }
 
+
 #p-home {
     font-size: 26px;
     font-family: Arial;
@@ -61,7 +62,8 @@ h4 {
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -132,31 +134,32 @@ h4 {
 /* text inside the hero image */
 
 #hero-text h2 {
-    font-size: 50px;
+    font-size: 300%;
     font-family: 'Libre Baskerville',
         serif;
     letter-spacing: 4px;
     color: white;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 180px;
+    clear: both;
 }
 
 #hero-text h3 {
-    font-size: 25px;
+    font-size: 170%;
     font-family: Arial;
     font-style: italic;
     letter-spacing: 1px;
     color: white;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 2px;
 }
 
 /* hero image for the meditation pages */
 
 #hero-image-rectangle {
     margin: 0px auto;
-    width: 100%;
-    height: 500px;
+    max-width: 1200px;
+    min-height: 500px;
     padding: 30px;
     border-color: lightcoral;
     background: url('../images/hero-image.jpg') no-repeat center center;
@@ -262,10 +265,10 @@ h4 {
 }
 
 #video-meditation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 /* footer */
@@ -285,4 +288,16 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 3%;
+}
+
+/* media queires */
+
+@media screen and (max-width:1200px) {
+    #footer > ul{
+        width: 100%;
+       clear: both;
+       height: 150px;
+       padding: 0;
+    }
+    
 }

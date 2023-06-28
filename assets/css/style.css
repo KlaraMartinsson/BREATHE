@@ -7,10 +7,6 @@
     border: none
 }
 
-body {
-    font-family: Arial;
-}
-
 p {
     font-size: 20px;
     font-family: Arial;
@@ -19,8 +15,6 @@ p {
     text-align: center;
     padding-top: 10px;
 }
-
-
 
 #p-home {
     font-size: 26px;
@@ -128,10 +122,10 @@ p {
     }
 }
 
-/* text inside the hero image */
+/* title for the text inside the hero image */
 
-#hero-text h2 {
-    font-size: 300%;
+h2 {
+    font-size: 50px;
     font-family: 'Libre Baskerville',
         serif;
     letter-spacing: 4px;
@@ -139,6 +133,10 @@ p {
     text-align: center;
     padding-top: 180px;
     clear: both;
+}
+
+#h2-questions {
+    padding-top: 80px;
 }
 
 /* hero image for the meditation pages */
@@ -281,7 +279,9 @@ footer {
     margin: 3%;
 }
 
-/* media queires */
+/* Media queires */
+
+/* For larger to medium screens size from 794px wide and down */
 
 @media screen and (max-width:794px) {
     #hero-image {
@@ -290,15 +290,38 @@ footer {
         height: 300px;
     }
 
-    #hero-text h2 {
-        font-size: 160%;
+    h2 {
+        font-size: 30px;
         padding-top: 96px;
+        letter-spacing: 1px;
+    }
+
+    #p {
+        font-size: 500px;
     }
 
     #p-home {
-        font-size: 110%;
+        font-size: 28px;
     }
 
-    #
+    #about-meditation {
+        width: 10;
+        display: inline-block;
+        margin-top: 3px;
+    }
 
+    #circle-container {
+        column-count: 2;
+    }
+
+}
+
+@media screen and (max-width:543px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 12px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
 }

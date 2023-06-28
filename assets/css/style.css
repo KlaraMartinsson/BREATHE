@@ -36,7 +36,11 @@ h4 {
     text-align: center;
 }
 
+#questions-list{
+    font-size: 18px;
+    letter-spacing: 1px;
 
+}
 /* Logo in the right top corner */
 
 #logo {

@@ -36,11 +36,11 @@ h4 {
     text-align: center;
 }
 
-#questions-list{
+#questions-list {
     font-size: 18px;
     letter-spacing: 1px;
-
 }
+
 /* Logo in the right top corner */
 
 #logo {
@@ -259,6 +259,13 @@ h4 {
 #circle-bg-questions:hover {
     border: 2px solid;
     border-color: orange;
+}
+
+#video-meditation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
 }
 
 /* footer */

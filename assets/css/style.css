@@ -11,7 +11,7 @@ body {
     font-family: arial;
 }
 
-h3{
+h3 {
     margin-top: 15px;
 }
 
@@ -299,7 +299,7 @@ footer {
 @media screen and (max-width:794px) {
     #hero-image {
         margin: 0px auto;
-        width: 65%;
+        width: 90%;
         height: 250px;
     }
 
@@ -324,13 +324,9 @@ footer {
     }
 
     #about-meditation {
-        width: 10;
-        display: inline-block;
-        margin-top: 3px;
-        box-sizing: border-box;
-        column-count: 2;
+        display: inline-block;  
+        margin: 0 auto;
     }
-
 }
 
 /* For medium to small screens size from 794px wide and down */

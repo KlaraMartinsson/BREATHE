@@ -80,24 +80,10 @@ h1 {
     color: inherit;
 }
 
-/* Navigation link start now and its hover*/
+/* Navigation links hover*/
 
 #menu a:hover {
     border-bottom: 1px solid;
-}
-
-#start-now {
-    border: 2px solid;
-    border-color: orange;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-#start-now:hover {
-    background-color: orange;
-    color: white;
-    border-bottom: 1px solid;
-    text-decoration: none;
 }
 
 /* Hero image for home page */
@@ -393,6 +379,10 @@ footer {
 
     #p-home {
         font-size: 16px;
+    }
+
+    #section-form{
+        height: 400px;
     }
 }
 

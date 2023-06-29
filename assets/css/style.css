@@ -204,6 +204,7 @@ h2 {
         serif;
     text-align: center;
     color: white;
+    margin-bottom: 20px;
 }
 
 #submit-button input {
@@ -395,7 +396,7 @@ footer {
 /* For medium to small screens size from 479px wide and down */
 
 @media screen and (max-width:479px) {
-
+    
     #hero-image {
         margin: 0px auto;
         width: 90%;
@@ -440,3 +441,4 @@ footer {
     #questions-list {
         font-size: 13px;
     }
+}

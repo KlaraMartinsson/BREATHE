@@ -416,4 +416,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    #questions-list {
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
 }

@@ -11,6 +11,8 @@ body {
     font-family: arial;
 }
 
+/* Fonts */
+
 h3 {
     margin-top: 15px;
 }
@@ -33,7 +35,6 @@ p {
     text-align: center;
     padding-top: 10px;
 }
-
 
 #questions-list {
     font-size: 18px;
@@ -79,7 +80,7 @@ h1 {
     color: inherit;
 }
 
-/* Navigation link start now hover*/
+/* Navigation link start now and its hover*/
 
 #menu a:hover {
     border-bottom: 1px solid;
@@ -129,7 +130,7 @@ h1 {
     }
 }
 
-/* Title for the text inside the hero image */
+/* Title for the text inside the home page hero image */
 
 h2 {
     font-size: 50px;
@@ -358,6 +359,7 @@ footer {
 }
 
 /* For medium to small screens size from 543px wide and down */
+
 @media screen and (max-width:543px) {
     #menu {
         clear: left;
@@ -400,7 +402,7 @@ footer {
 
     #hero-image {
         margin: 0px auto;
-        width: 90%;
+        width: 85%;
         height: 220px;
     }
 
@@ -431,7 +433,8 @@ footer {
     }
 
     #p-home {
-        font-size: 13px;
+        font-size: 16px;
+        clear: both;
     }
 
     #about-meditation {

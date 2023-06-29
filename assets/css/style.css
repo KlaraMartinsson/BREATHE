@@ -50,6 +50,7 @@ h1 {
     letter-spacing: 2px;
     color: orange;
     margin-left: 10px;
+    font-size: 30px;
 }
 
 /* Navigation links */
@@ -396,7 +397,7 @@ footer {
 /* For medium to small screens size from 479px wide and down */
 
 @media screen and (max-width:479px) {
-    
+
     #hero-image {
         margin: 0px auto;
         width: 90%;
@@ -439,6 +440,6 @@ footer {
     }
 
     #questions-list {
-        font-size: 13px;
+    font-size: 13px;
     }
 }

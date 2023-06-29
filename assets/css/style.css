@@ -160,7 +160,7 @@ h2 {
 
 #hero-image-rectangle-questions {
     margin: 0px auto;
-    max-width: 1200px;
+    width: 1200px;
     height: 500px;
     padding: 30px;
     border-color: lightcoral;
@@ -168,6 +168,17 @@ h2 {
     clear: both;
     background-size: cover;
 
+}
+
+#hero-image-rectangle-why {
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 500px;
+    padding: 30px;
+    border-color: lightcoral;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    clear: both;
+    background-size: cover;
 }
 
 /* Form */
@@ -397,6 +408,16 @@ footer {
         height: 300px;
     }
 
+    #hero-image-rectangle-questions {
+        margin: 0px auto;
+        height: 780px;
+    }
+
+    #hero-image-rectangle-why {
+        margin: 0px auto;
+        height: 500px;
+    }
+
     #h2-home {
         font-size: 18px;
         padding-top: 96px;
@@ -418,6 +439,4 @@ footer {
 
     #questions-list {
         font-size: 13px;
-        margin-bottom: 40px;
     }
-}

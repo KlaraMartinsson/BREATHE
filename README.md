@@ -19,7 +19,7 @@ The navigation bar is working fully responsvely and is featured on all webpages,
 
 ![nav-bar](assets/readme-images/nav-bar.JPG)
 
-## The main image
+### The main image
 The first thing the eyes lands on are the main image that I use through all of the pages.
 * The image represent a beautiful calming sky with information text in it.
 * I put animation on it so the image zooms out when the home page opens up. It almost looks like the image it self is taking a breathe.
@@ -27,9 +27,10 @@ The first thing the eyes lands on are the main image that I use through all of t
 
 ![main-image](assets/readme-images/main-image.JPG)![main-image-rectangle](assets/readme-images/main-image-rectangle.JPG)
 
-## Navigation for webpages about meditation
+### Navigation for webpages about meditation
 * I made another navigation bar for the diffrent webpages about meditation in circles to make it more appearing.
 * The circles keeps the theme in the design from the home pages main image.
+* They all have cute simple illustrations pictures.
 * They are all in orange to keep the same color theme.
 * When hover over they get a orange border around them, for the user to understand which one they are about to click on.
 * The circles are featured on all pages to make it easy to navigate.
@@ -41,31 +42,51 @@ The first thing the eyes lands on are the main image that I use through all of t
 ![circles-1](assets/readme-images/circles-2.JPG)
 ![circles-2](assets/readme-images/circles-1.JPG)
 
-## The footer
-* The footer is very simple and contains the websites social network links.
-* The social network links are all in orange to keep the color theme.
-* When clicked on any of them they open up in another tab so they user stays on the website.
-![social](assets/readme-images/social.JPG)
-
-## The what is mediation, why meditate and how to meditate pages
+### The what is mediation, why meditate and how to meditate pages
 The purpose for the viewers with these pages is to get a better understanding about meditation. To get inspired to start living a healtier life style and more knowledge about how they could start with meditation.
 * The pages look almost exactly like the same layout as the homepage. The only diffrent is that the main image is a rectangle instead of a circle, to fit in more text. 
 * It is easy to read about the information in the image becuase of the contrasts colors with orange and white.
 
 IMAGE
 
-## The questions page
+### The questions page
 This section involves the most frequently asked questions about meditation. Its purpose is so that the users dont feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
 
 IMAGE
 
-## The start now page
+### The start now page
 The start now page is build for the viewers to easier be able to start their journey with guided meditation.
 * Involves a form where you can send a intreset for a guided meditation over the phone.
-* There is on youtube clip with a meditation guide that the user can control by themself.
+* There is a embedded youtube clip with a meditation guide that the user can control by themself.
 * Other then that the webpages layout looks the same as the others.
 
 IMAGE
+
+### The footer
+* The footer is very simple and contains the websites social network links.
+* The social network links are all in orange to keep the color theme.
+* When clicked on any of them they open up in another tab so they user stays on the website.
+![social](assets/readme-images/social.JPG)
+
+## Existing features
+* Nice layout that look similar on all of the pages
+* Responsive design from 497px and up
+* All basic information a beginner would need for meditation
+* A form for the user to sign up an interest for a guided meditation
+* Easy navigation through all pages
+* All external links opens up in a new tab
+* All links have an aria-label for improving accessibility
+* Youtube video with guided infomration
+* Frequently asked questions and answers 
+
+## Features that could improve
+* Better responsive design for smaller screens with no scroll bars 
+* Group meditation lessions
+* More guided meditation movies
+* Real social media sites for Breathe
+
+## Testing
+The website have been tested with Google chrome lighthouse, W3C Validatore
 
 
 

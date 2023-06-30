@@ -47,9 +47,26 @@ The first thing the eyes lands on are the main image that I use through all of t
 * When clicked on any of them they open up in another tab so they user stays on the website.
 ![social](assets/readme-images/social.JPG)
 
-## The what is mediation page
-The purpose for the viewers of the what is meditation page is to get a better understanding of the basic meditation knowledge.
-* The page look almost exactly like the same layout as the homepage. 
+## The what is mediation, why meditate and how to meditate pages
+The purpose for the viewers with these pages is to get a better understanding about meditation. To get inspired to start living a healtier life style and more knowledge about how they could start with meditation.
+* The pages look almost exactly like the same layout as the homepage. The only diffrent is that the main image is a rectangle instead of a circle, to fit in more text. 
 * It is easy to read about the information in the image becuase of the contrasts colors with orange and white.
+
+IMAGE
+
+## The questions page
+This section involves the most frequently asked questions about meditation. Its purpose is so that the users dont feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
+
+IMAGE
+
+## The start now page
+The start now page is build for the viewers to easier be able to start their journey with guided meditation.
+* Involves a form where you can send a intreset for a guided meditation over the phone.
+* There is on youtube clip with a meditation guide that the user can control by themself.
+* Other then that the webpages layout looks the same as the others.
+
+IMAGE
+
+
 
 

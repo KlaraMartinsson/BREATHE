@@ -347,7 +347,7 @@ footer {
 /* For medium to small screens size from 543px wide and down */
 
 @media screen and (max-width:543px) {
-    
+
     #menu {
         clear: left;
         float: left;

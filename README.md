@@ -6,6 +6,15 @@ Breathe is a website that want to teach the basics about meditation. The site is
 
 ![Website in diffrent screens](assets/readme-images/responsive.jpg)
 
+## Design
+### Color theme
+I wanted to use simple, readable and not to many colors for the website. I choose to have mostly orange color because it was a warmth and uplifting tones to it. The white and black is more for contrast and structure.
+
+![Color palette for the website](assets/readme-images/colortheme.png)
+
+### Typografi
+Google fonts were used for the logo and for some of the titles. I choose 'Libre Baskerville' for the titles and logo and used the common Arial for body and paragraphs.
+
 ## Features
 
 ### Navigation bar

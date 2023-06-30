@@ -45,8 +45,11 @@ The first thing the eyes lands on are the main image that I use through all of t
 - On smaller screens the circles will appear in vertically one by one.
 
 ![Navigation bar with circles](assets/readme-images/circles-navbar.jpg)
+- - -
 ![Navigation bar with circles](assets/readme-images/circles-2.jpg)
+- - -
 ![Navigation bar with circles](assets/readme-images/circles-1.jpg)
+- - -
 
 ### The what is mediation, why meditate and how to meditate pages
 

@@ -4,7 +4,9 @@
 
 Breathe is a website that want to teach the basics about meditation. The site is targeting beginners who are unsecure with mediation and want to make them feel more comfortable with it. Breathe also offer guided meditation over the phone to make it easier to start with meditation.
 
-![am-i-responsive](assets/readme-images/am-i-responsive.png)
+![am-i-responsive](..assets/readme-images/responsive1.png)
+
+## Contents
 
 ## Features
 ### Navigation bar
@@ -89,7 +91,8 @@ IMAGE
 * The website have been tested with W3C Validator, Jigsaw Validator, The Am I Responsive website and Google Chrome lighthouse. 
 * All pages have been testet for screen sizes from 479px and up. 
 * The sites pictures are not pixeled or stretch out on any pages. 
-* I have tested that all of the links, in every page works and that external links open ups in another tab.
+* I confirm that all of the links, in every page works and that external links open ups in another tab.
+* I tested that the form works: requires text in every field, will only accept email in the email field and the submit button works. 
 
 ### Code validation
 #### HTML
@@ -97,17 +100,34 @@ IMAGE
 #### CSS
 * The code made it through Jigsaws validatore with no problems.
 
-
 ### Am I Responsive
 I looked at this website when I was making media queries to make sure the webpage looked good on all screens.
 
-### Chromes lighthouse
-All of the page have good performance, accessibility, best practice and seo.
+### Accessibility
+I used Google Chromes lighthouse to be sure of the accessiblity. All of the pages have a good accessibility score. I also been doing this to make it better:
+* Using an aria-labels on all the links 
+* Using labels on my form.L abels ensure that form controls are announced properly by assistive technologies, like screen readers. (Text from Lighthouse)
+* I have a title on my ifram for the youtube video. The title makes is easier for screen readers to describe the content of the frames.
+* Using semantic HTML.
+* Have a good contrast on my colors
+* No disturbing background images or fonts that makes it harder to read.
+* Ensuring that the menu and about meditation nav bar i easy to find on every page.
 
-IMAGES 
+IMAGE
+
+
 
 ## Unfixed bugs
 The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project. 
+
+# Fixed bugs
+* The forms yellow block was not filling up all of the text content when screen size were down to phone size. I fixed that by media queries and made more pixels to the height.
+
+IMAGES
+
+* The menu nav bar went into the logo at smaller screen size so I made another media querie and made it float left and used some margin to keep som space between other elements.
+
+
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are:
@@ -116,18 +136,24 @@ The site was deployed to GitHub pages. The steps to deploy are:
 * In the left-hand side navigation bar click pages 
 * Then in the source section you choose Main and select Root from the folder selection dropdown menu.
 * Click on save and you then get the URL.
-All codes, files and images have been added in Github by using Git commands: git add ., git commit and git push. 
+* All codes, files and images have been added in Github by using Git commands: git add ., git commit and git push. 
 
 ## Credits
 
 ### Content
 * The content on the website is written mostly from the Ai chat ["Shako"](https://shako.ai/) or by Klara Martinsson.
 * The icons in the bottom were from [Font Awesome](https://fontawesome.com/)
-* I used inspiration from the Love Running project from codeinstitue program when doing the footer and menu nav bar.
-* I got help with my code by looking at Izabella Lopez project. ["Checkup-dublin"](https://izabellalopes.github.io/checkup-dublin/index.html) I needed to get my navigation bar with the circles responsive at smaller screens. I wanted them to become columns but it didnt work for me with just "colums: 2;" so I saw her code with her similar circles in testimonals that worked. The code I used from her was "grid-template-columns: 1fr 1fr"
+* I used inspiration from the [Love Running project](https://github.com/KlaraMartinsson/love-running/blob/main/assets/css/style.css) from codeinstitue program when doing the footer and menu nav bar.
+* I got help with my code by looking at Izabella Lopez project. ["Checkup-dublin"](https://izabellalopes.github.io/checkup-dublin/index.html) I needed to get my navigation bar with the circles responsive at smaller screens. I wanted them to become columns but it didnt work for me with just "colums: 2;" so I saw her code with her similar circles in testimonals that worked for her. The code I used from her was "grid-template-columns: 1fr 1fr"
 ### Media
 * The hero image that is the big picture that follows with on all the pages is taken from [Pexels](https://www.pexels.com/sv-se/).
 * The illustrations are from [Storyset](https://storyset.com/).
+* The guided meditation video is taken from [Youtube](https://www.youtube.com/watch?v=cyMxWXlX9sU&t=1s).
+
+## Acknowledgements
+I would like to say thank you to these that helped me with this project.
+* My slack collegues, for clearing up on questions of about the course.
+* My family and friends for checking out the webpage on their screens and giving critic.
 
 
 

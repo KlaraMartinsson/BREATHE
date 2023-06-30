@@ -107,7 +107,27 @@ All of the page have good performance, accessibility, best practice and seo.
 IMAGES 
 
 ## Unfixed bugs
-* The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project. 
+The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project. 
+
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are:
+* Sign into GitHub
+* Find the GitHub repository named "BREATHE", navigate to settings.
+* In the left-hand side navigation bar click pages 
+* Then in the source section you choose Main and select Root from the folder selection dropdown menu.
+* Click on save and you then get the URL.
+All codes, files and images have been added in Github by using Git commands: git add ., git commit and git push. 
+
+## Credits
+
+### Content
+* The content on the website is written mostly from the Ai chat ["Shako"](https://shako.ai/) or by Klara Martinsson.
+* The icons in the bottom were from [Font Awesome](https://fontawesome.com/)
+* I used inspiration from the Love Running project from codeinstitue program when doing the footer and menu nav bar.
+* I got help with my code by looking at Izabella Lopez project. ["Checkup-dublin"](https://izabellalopes.github.io/checkup-dublin/index.html) I needed to get my navigation bar with the circles responsive at smaller screens. I wanted them to become columns but it didnt work for me with just "colums: 2;" so I saw her code with her similar circles in testimonals that worked. The code I used from her was "grid-template-columns: 1fr 1fr"
+### Media
+* The hero image that is the big picture that follows with on all the pages is taken from [Pexels](https://www.pexels.com/sv-se/).
+* The illustrations are from [Storyset](https://storyset.com/).
 
 
 

@@ -72,7 +72,7 @@ The start now page is build for the viewers to easier be able to start their jou
 - There is a embedded youtube clip with a meditation guide that the user can control by themself.
 - Other then that the webpages layout looks the same as the others.
 
-![Start now page with guided meditation](assets/readme-images/guidedmeditation.jpg)
+![Start now page with guided meditation](assets/readme-images/form.jpg)
 
 ### The footer
 
@@ -167,6 +167,7 @@ The site was deployed to GitHub pages. The steps to deploy are:
 - The icons in the bottom were from [Font Awesome](https://fontawesome.com/)
 - I used inspiration from the [Love Running project](https://github.com/KlaraMartinsson/love-running/blob/main/assets/css/style.css) from codeinstitue program when doing the footer and menu nav bar.
 - I got help with my code by looking at Izabella Lopez project. ["Checkup-dublin"](https://izabellalopes.github.io/checkup-dublin/index.html) I needed to get my navigation bar with the circles responsive at smaller screens. I wanted them to become columns but it didnt work for me with just "colums: 2;" so I saw her code with her similar circles in testimonals that worked for her. The code I used from her was "grid-template-columns: 1fr 1fr"
+- I got help with centering my content with the code "display: flex; justify-content: center; align-items: center;" from one of the slack students.
 
 ### Media
 
@@ -178,5 +179,5 @@ The site was deployed to GitHub pages. The steps to deploy are:
 
 I would like to say thank you to these that helped me with this project.
 
-- My slack collegues, for clearing up on questionsf about the course.
+- My slack collegues, for clearing up on questions about the course. 
 - My family and friends for checking out the webpage on their screens and giving critic.

@@ -8,7 +8,7 @@ Breathe is a website that want to teach the basics about meditation. The site is
 
 ## Design
 ### Color theme
-I wanted to use simple, readable and not to many colors for the website. I choose to have mostly orange color because it was a warmth and uplifting tones to it. The white and black is more for contrast and structure.
+I wanted to use simple, readable and not to many colors for the website. I choose to have mostly orange color because it has a warm and uplifting tone to it. The white and black is more for contrast and structure.
 
 ![Color palette for the website](assets/readme-images/colortheme.png)
 The color palette was created using the [Coolors](https://coolors.co/) website.
@@ -20,15 +20,15 @@ Google fonts were used for the logo and for some of the titles. I choose 'Libre 
 
 ### Navigation bar
 
-The navigation bar is working fully responsvely and is featured on all webpages, making it easy for the users to to navigate with.
+The navigation bar is working fully responsively and is featured on all webpages, making it easy for the users to navigate.
 
-- I chosed a simple design so that the navbar would be easy to see.
+- I chosed a simple design so that the navigation bar would be easy to see.
 - When the user hover over on the nav bar, a line appears underneath to make it easier to see which of them they are clicking on.
 - On larger screen the nav bar is always located on the right corner.
 - On smaller screens the nav bar goes under the logo.
 - If the user click on the logo in the left corner they arrive to the homepage to make it even easier to navigate.
 - When the user clicks on the social network text they come to the bottom of the page for the links.
-- When the user clicks on the start now text they come to a form to get a guided meditation.
+- When the user clicks on the start now text they come to a form to get a guided meditation. There is also a youtube video with guided meditation.
 
 ![Navigation bar](assets/readme-images/nav-bar.jpg)
 
@@ -63,16 +63,16 @@ The first thing the eyes lands on are the main image that I use through all of t
 
 ### The what is mediation, why meditate and how to meditate pages
 
-The purpose for the viewers with these pages is to get a better understanding about meditation. To get inspired to start living a healtier life style and more knowledge about how they could start with meditation.
+The purpose for the viewers with these pages is to get a better understanding about meditation. Inspire them to start living a healthier life style and more knowledge about how they could start with meditation.
 
-- The pages look almost exactly like the same layout as the homepage. The only diffrent is that the main image is a rectangle instead of a circle, to fit in more text.
-- It is easy to read about the information in the image becuase of the contrasts colors with orange and white.
+- The pages have almost the same layout as the homepage. The only diffrent is that the main image is a rectangle instead of a circle, to fit in more text.
+- It is easy to read about the information in the image because of the contrast colors with orange and white.
 
 ![About meditation pages](assets/readme-images/about-meditation-pages.jpg)
 
 ### The questions page
 
-This section involves the most frequently asked questions about meditation. Its purpose is so that the users dont feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
+This section involves the most frequently asked questions about meditation. Its purpose is to make the users secure and not feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
 
 ## The start now page
 
@@ -80,7 +80,7 @@ The start now page is build for the viewers to easier be able to start their jou
 
 - Involves a form where you can send a intreset for a guided meditation over the phone.
 - There is a embedded youtube clip with a meditation guide that the user can control by themself.
-- Other then that the webpages layout looks the same as the others.
+- Other then that the webpages layout looks like the others.
 
 ![Start now page with guided meditation](assets/readme-images/form.jpg)
 
@@ -88,7 +88,7 @@ The start now page is build for the viewers to easier be able to start their jou
 
 - The footer is very simple and contains the websites social network links.
 - The social network links are all in orange to keep the color theme.
-- When clicked on any of them they open up in another tab so they user stays on the website.
+- When clicked on any of them they open up in another tab so the user stays on the website.
   ![Social network links](assets/readme-images/social.jpg)
 
 ## Existing features
@@ -100,7 +100,7 @@ The start now page is build for the viewers to easier be able to start their jou
 - Easy navigation through all pages
 - All external links opens up in a new tab
 - All links have an aria-label for improving accessibility
-- Youtube video with guided infomration
+- Youtube video with guided information
 - Frequently asked questions and answers
 
 ## Features that could improve
@@ -113,7 +113,7 @@ The start now page is build for the viewers to easier be able to start their jou
 ## Testing
 
 - The website have been tested with W3C Validator, Jigsaw Validator, The Am I Responsive website and Google Chrome lighthouse.
-- All pages have been testet for screen sizes from 479px and up.
+- All pages have been tested for screen sizes from 479px and up.
 - The websites pictures are not pixeled or stretch out on any pages.
 - I confirm that all of the links, in every page works and that external links open ups in another tab.
 - I tested that the form works: requires text in every field, will only accept email in the email field and the submit button works.
@@ -137,18 +137,18 @@ I looked at this [website](https://ui.dev/amiresponsive?url=https://8000-klarama
 I used Google Chromes lighthouse to be sure of the accessiblity. All of the pages have a good accessibility score. I also been doing this to make it better:
 
 - Using an aria-labels on all the links
-- Using labels on my form.L abels ensure that form controls are announced properly by assistive technologies, like screen readers. (Text from Lighthouse)
-- I have a title on my ifram for the youtube video. The title makes is easier for screen readers to describe the content of the frames.
+- Using labels on my form. Labels ensure that form controls are announced properly by assistive technologies, like screen readers. (Text from Lighthouse)
+- I have a title on my iframe for the youtube video. The title makes it easier for screen readers to describe the content of the frames.
 - Using semantic HTML.
-- Have a good contrast on my colors
-- No disturbing background images or fonts that makes it harder to read.
-- Ensuring that the menu and about meditation nav bar i easy to find on every page.
+- Having a good contrast on my colors
+- No disturbing background images or fonts that makes text hard to read.
+- Ensuring that the menu and about meditation nav bar is easy to find on every page.
 
 ![Websites performance, accessibility and more](assets/readme-images/lighthouse.jpg)
 
 ## Unfixed bugs
 
-The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project.
+The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent with small screens, scroll bars shows up to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project.
 
 # Fixed bugs
 
@@ -156,7 +156,7 @@ The responsivnes could be better for smaller screens like phones. The form is no
 
 ![Bugs](assets/readme-images/bug.png)![Fixed bugs](assets/readme-images/fixedbug.png)
 
-- The menu nav bar went into the logo at smaller screen size so I made another media querie and made it float left and used some margin to keep som space between other elements.
+- The menu navigation bar text went into the logo at smaller screen size so I made another media querie and made it float left and used some margin to keep som space between other elements.
 
 ## Deployment
 

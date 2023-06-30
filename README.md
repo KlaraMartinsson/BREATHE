@@ -4,9 +4,7 @@
 
 Breathe is a website that want to teach the basics about meditation. The site is targeting beginners who are unsecure with mediation and want to make them feel more comfortable with it. Breathe also offer guided meditation over the phone to make it easier to start with meditation.
 
-![am-i-responsive](readme-images/r.png)
-
-## Contents
+![Website in diffrent screens](assets/readme-images/responsive.png)
 
 ## Features
 ### Navigation bar
@@ -19,15 +17,15 @@ The navigation bar is working fully responsvely and is featured on all webpages,
 * When the user clicks on the social network text they come to the bottom of the page for the links.
 * When the user clicks on the start now text they come to a form to get a guided meditation.
 
-![nav-bar](assets/readme-images/nav-bar.JPG)
+![Navigation bar](assets/readme-images/nav-bar.jpg)
 
-### The main image
+### The hero image
 The first thing the eyes lands on are the main image that I use through all of the pages.
 * The image represent a beautiful calming sky with information text in it.
 * I put animation on it so the image zooms out when the home page opens up. It almost looks like the image it self is taking a breathe.
 * On the other pages the main image is a rectangule instead of a circle to make it easier responsive with all of the text in it.
 
-![main-image](assets/readme-images/main-image.JPG)![main-image-rectangle](assets/readme-images/main-image-rectangle.JPG)
+![Hero image](assets/readme-images/hero-image.jpg)![Hero image but as a rectangle](assets/readme-images/hero-image-rectangle.jpg)
 
 ### Navigation for webpages about meditation
 * I made another navigation bar for the diffrent webpages about meditation in circles to make it more appearing.
@@ -40,21 +38,21 @@ The first thing the eyes lands on are the main image that I use through all of t
 * On medium screens the circles will appear in columns two by two.
 * On smaller screens the circles will appear in vertically one by one.
 
-![circles-navbar](assets/readme-images/circles-navbar.JPG)
-![circles-1](assets/readme-images/circles-2.JPG)
-![circles-2](assets/readme-images/circles-1.JPG)
+![Navigation bar with circles](assets/readme-images/circles-navbar.jpg)
+![Navigation bar with circles](assets/readme-images/circles-2.jpg)
+![Navigation bar with circles](assets/readme-images/circles-1.jpg)
 
 ### The what is mediation, why meditate and how to meditate pages
 The purpose for the viewers with these pages is to get a better understanding about meditation. To get inspired to start living a healtier life style and more knowledge about how they could start with meditation.
 * The pages look almost exactly like the same layout as the homepage. The only diffrent is that the main image is a rectangle instead of a circle, to fit in more text. 
 * It is easy to read about the information in the image becuase of the contrasts colors with orange and white.
 
-IMAGE
+![About meditation pages](assets/readme-images/about-meditation-pages.jpg)
 
 ### The questions page
 This section involves the most frequently asked questions about meditation. Its purpose is so that the users dont feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
 
-IMAGE
+
 
 ### The start now page
 The start now page is build for the viewers to easier be able to start their journey with guided meditation.
@@ -68,7 +66,7 @@ IMAGE
 * The footer is very simple and contains the websites social network links.
 * The social network links are all in orange to keep the color theme.
 * When clicked on any of them they open up in another tab so they user stays on the website.
-![social](assets/readme-images/social.JPG)
+![Social network links](assets/readme-images/social.jpg)
 
 ## Existing features
 * Nice layout that look similar on all of the pages

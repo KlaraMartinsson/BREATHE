@@ -4,7 +4,7 @@
 
 Breathe is a website that want to teach the basics about meditation. The site is targeting beginners who are unsecure with mediation and want to make them feel more comfortable with it. Breathe also offer guided meditation over the phone to make it easier to start with meditation.
 
-![Website in diffrent screens](assets/readme-images/responsive.png)
+![Website in diffrent screens](assets/readme-images/responsive.jpg)
 
 ## Features
 ### Navigation bar
@@ -52,15 +52,13 @@ The purpose for the viewers with these pages is to get a better understanding ab
 ### The questions page
 This section involves the most frequently asked questions about meditation. Its purpose is so that the users dont feel wierd or diffrent when starting with meditation. The page layout looks like the other webpages about meditation.
 
-
-
-### The start now page
+## The start now page
 The start now page is build for the viewers to easier be able to start their journey with guided meditation.
 * Involves a form where you can send a intreset for a guided meditation over the phone.
 * There is a embedded youtube clip with a meditation guide that the user can control by themself.
 * Other then that the webpages layout looks the same as the others.
 
-IMAGE
+![Start now page with guided meditation](assets/readme-images/guidedmeditation.jpg)
 
 ### The footer
 * The footer is very simple and contains the websites social network links.
@@ -111,9 +109,7 @@ I used Google Chromes lighthouse to be sure of the accessiblity. All of the page
 * No disturbing background images or fonts that makes it harder to read.
 * Ensuring that the menu and about meditation nav bar i easy to find on every page.
 
-IMAGE
-
-
+![Websites performance, accessibility and more](assets/readme-images/lighthouse.jpg)
 
 ## Unfixed bugs
 The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project. 
@@ -121,11 +117,9 @@ The responsivnes could be better for smaller screens like phones. The form is no
 # Fixed bugs
 * The forms yellow block was not filling up all of the text content when screen size were down to phone size. I fixed that by media queries and made more pixels to the height.
 
-IMAGES
+![Bugs](assets/readme-images/bug.png)![Fixed bugs](assets/readme-images/fixedbug.png)
 
 * The menu nav bar went into the logo at smaller screen size so I made another media querie and made it float left and used some margin to keep som space between other elements.
-
-
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are:

@@ -86,7 +86,34 @@ IMAGE
 * Real social media sites for Breathe
 
 ## Testing
-The website have been tested with Google chrome lighthouse, W3C Validatore
+* The website have been tested with W3C Validator, Jigsaw Validator, The Am I Responsive website and Google Chrome lighthouse. 
+* All pages have been testet for screen sizes from 479px and up. 
+* The sites pictures are not pixeled or stretch out on any pages. 
+* I have tested that all of the links, in every page works and that external links open ups in another tab.
+
+### Code validation
+#### HTML
+* No errors where found in the code with the W3C Validator.
+#### CSS
+* The code made it through Jigsaws validatore with no problems.
+
+
+### Am I Responsive
+I looked at this website when I was making media queries to make sure the webpage looked good on all screens.
+
+### Chromes lighthouse
+All of the page have good performance, accessibility, best practice and seo.
+
+IMAGES 
+
+## Unfixed bugs
+* The responsivnes could be better for smaller screens like phones. The form is not centered, and my code skills wasn't enough to solve it. The how and question page also act diffrent at small screens with scroll bars to fit everything in. I dont see it as a huge problem but would be better if everything would be in place. After spending many hours trying to figure out the problem with google and youtube searches I had to accept that I just have to learn more about positioning and sizing for the next project. 
+
+
+
+
+
+
 
 
 
